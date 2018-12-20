@@ -1,0 +1,19 @@
+[power]
+powerConsumption = 20
+
+[weapon]
+fireInterval = 0.45
+bulletDamage = 12
+bulletSpeed = 900
+bulletLifetime = 1.5
+weaponWarmup = 60
+turretRotationSpeed = 0.5
+maxTurretRotation = 200
+turretSprite = "heavy-launcher-turret"
+
+isDoubleBarreled = true
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/explosion_big"

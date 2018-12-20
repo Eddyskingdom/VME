@@ -1,0 +1,74 @@
+id,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildable,isCockpit,hasRadar,isTurretController,isEngineController,canRefillOxygen,usesPrettifies,turnsInto,usesDamageReplacement
+5,core,"S100 ""Mothership"" Factory",Core,Costs 25000,25,25000,5000,/======,,y,,,,,y,,,y
+104,asteroids/full-d,Asteroid Floor,,,12,60,25,/=,,,,,,,,y,,y
+105,asteroids/full-l,Asteroid Wall,,,10,50,20,/=,y,,,,,,,y,104,y
+1,quatercorridor,S1 Floor Panel,,Costs 10,0.25,10,40,/=,,y,,,,,y,,,y
+3,quaterwall,S2 Armor Panel,,Costs 25,1,25,100,/=,y,y,,,,,y,y,,y
+17,walls/diagonalwall,DiagonalWall,,,1,60,60,/=.=/=.=/00/00,y,,,,,,y,,,y
+18,walls/halfwall,HalfWall,,,1,60,60,/=.=/=,y,,,,,,y,,,y
+19,walls/halfwallcorner,HalfWallCorner,,,1,15,15,/=/=/0/0,y,,,,,,y,,,y
+20,walls/wingangle1,WingAngle1,,,1,90,90,/=.=/=.=/00/0=,y,,,,,,y,,,y
+21,walls/wingangle2,WingAngle2,,,1,30,30,/--/=/00/0,y,,,,,,y,,,y
+6,?,Flag,,,1,0,30,/==,,,,,,,y,,,n
+8,torpedo-launcher,Torpedo Launcher,Torpedo Launcher,launches torpedos,3,1000,200,/===-/--/-===/==,y,y,,y,,,y,,,y
+9,weapon-base-side-small,Heavy Gatling,Heavy Gatling,,3,500,100,/--/--/--/==,y,,,y,,,y,,,y
+10,weapon-base-side-small,Light Launcher,Light Launcher,,4,300,60,/--/--/--/==,y,,,y,,,y,,,y
+11,weapon-base-side-small,Heavy Launcher,Heavy Launcher,,6,500,60,/--/--/--/==,y,,,y,,,y,,,y
+15,weapon-base-mannable,Mannable Mining Laser,Mannable Mining Laser,,10,1200,200,/----/----/----/====,,,,y,,,y,,,y
+16,weapon-base-mannable,Mannable Railgun,Mannable Railgun,,10,1200,200,/----/----/----/====,,,,y,,,y,,,y
+40,point-defense,Point Defense,Point Defense,protects stuff,2,1000,200,/--/--/--/==,y,,,y,,,y,,,y
+7,weapon-base-side-small,PD-115 Point Defense Cannon,Gatling Autoturret,Costs 1000,2,1000,200,/--/--/--/==,y,y,,y,,,y,,,y
+12,weapon-base-side-large,AC-7 Gimbaled Assault Cannon,Autocannon,Costs 3000,4,3000,600,/----/----/----/====,y,y,,y,,,y,,,y
+13,railgun,R-217 Rail Cannon,Railgun,Costs 3000,6,3000,400,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
+14,weapon-base-mannable,MC-4 Flak Emplacement,Flak Turret,Costs 2000,4,2000,1200,/----/----/----/====,,y,,y,,,y,,,y
+24,reactorred,"E2 ""Plock"" Nuclear Reactor",ReactorE,Costs 200,22,200,160,/==,,y,,,,,y,,,y
+32,reactor-large,E10 Fusion Reactor,Large ReactorE,Costs 1200,20,1200,480,/======/====/======/====,y,y,,,,,y,,,y
+25,capacitor,Capacitor,,,1,200,200,/==,y,,,,,,y,,,y
+30,thruster-small,T5-Light Thruster,Small Thruster,Costs 50,1,50,100,/-=/=/=-/-,y,y,,,,,y,,,y
+2,thruster,"E10 ""Kreol"" Thruster",ThrusterE,Costs 200,1,100,160,/--==/==/==--/--,y,y,,,,,y,,,y
+29,engine,TC65 Combat Engine,Combat Engine,Costs 1000,1,1000,800,/======/----/------/----,y,y,,,,,y,,,y
+31,thruster-xlarge,E25 Heavy Thruster,Large ThrusterE,Costs 3000,1,1500,640,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+28,ai-terminal,AI Terminal,AI Terminal,makes ship be computer controlled,1,100,100,/==,y,,,,,,y,,,y
+33,terminal-base,CT-24 Command Station,Terminal,Costs 300,1,300,1000,/====,,y,,y,y,,y,,,y
+4,cockpit,CS-16 Interceptor Cockpit,Cockpit,Costs 500,1,500,800,/====-/--/-====/==,,y,y,y,y,y,y,,,y
+34,bridge,CS-50 Capital Helm,Bridge,Costs 1000,1,1000,2400,/====0000/0--0/0000====/====,,y,y,y,y,y,y,,,y
+26,medbay,M66 Crew Armory,Armory,Costs 500,1,500,800,/====,,y,,,,,y,,,y
+35,clonebay,Clone Bay,Clone Bay,,12,10000,1000,/======,,,,,,,y,,,y
+36,battery,Battery,,,2,300,300,/==,y,,,,,,y,,,y
+37,asteroids/bigrock,Big Rock,,,12,4000,3000,/----,y,,,,,,,,,y
+38,asteroids/mysteryhexagon,Mystery Hexagon,,,12,6000,2000,/----,y,,,,,,y,,,y
+39,shipyard,Shipyard,Shipyard,repairs stuff,1,10,10,/=====-/--------/-=====/========,,,,,,,y,,,y
+41,reactorred,"D2 ""Plock"" Nuclear Reactor",ReactorD,Costs 300,22,300,320,/==,,y,,,,,y,,,y
+42,reactorred,"C2 ""Plock"" Nuclear Reactor",ReactorC,Costs 400,22,400,400,/==,,y,,,,,y,,,y
+43,reactorred,"B2 ""Plock"" Nuclear Reactor",ReactorB,Costs 600,22,600,520,/==,,y,,,,,y,,,y
+44,reactorred,"A2 ""Plock"" Nuclear Reactor",ReactorA,Costs 800,22,800,720,/==,,y,,,,,y,,,y
+45,reactor-large,P10 Fusion Reactor,Large ReactorD,Costs 2400,20,1800,960,/======/====/======/====,y,y,,,,,y,,,y
+46,reactor-large,C10 Fusion Reactor,Large ReactorC,Costs 2400,20,2400,1200,/======/====/======/====,y,y,,,,,y,,,y
+47,reactor-large,B10 Fusion Reactor,Large ReactorB,Costs 3600,20,3600,1560,/======/====/======/====,y,y,,,,,y,,,y
+48,reactor-large,A10 Fusion Reactor,Large ReactorA,Costs 4800,20,4800,2160,/======/====/======/====,y,y,,,,,y,,,y
+49,quaterwall,S3 Heavy Armor Panel,,Costs 50,2,50,200,/=,y,,,,,,y,y,,y
+50,thruster,"D10 ""Kreol"" Thruster",ThrusterD,Costs 200,1,150,320,/--==/==/==--/--,y,y,,,,,y,,,y
+51,thruster,"C10 ""Kreol"" Thruster",ThrusterC,Costs 200,1,200,400,/--==/==/==--/--,y,y,,,,,y,,,y
+52,thruster,"B10 ""Kreol"" Thruster",ThrusterB,Costs 200,1,300,520,/--==/==/==--/--,y,y,,,,,y,,,y
+53,thruster,"A10 ""Kreol"" Thruster",ThrusterA,Costs 200,1,400,720,/--==/==/==--/--,y,y,,,,,y,,,y
+54,weapon-base-side-small,FD-115 Fixed Point Defense Cannon,Gatling Autoturret Fixed,Costs 1000,2,800,250,/--/--/--/==,y,y,,y,,,y,,,y
+55,railgun,I-318 Impulse Cannon,Impulse Cannon,Costs 3000,6,3200,450,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
+56,weapon-base-side-small,S-192 Scattergun,Scattergun,Costs 1000,2,1800,180,/--/--/--/==,y,y,,y,,,y,,,y
+57,weapon-base-side-large,Mk0 Mouse Autocannon,Mouse Cannon,Costs 3000,4,2800,500,/----/----/----/====,y,y,,y,,,y,,,y
+58,weapon-base-side-large,X-0 Zephyr Autocannon,Zephyr Autocannon,Costs 3000,4,3500,600,/----/----/----/====,y,y,,y,,,y,,,y
+59,weapon-base-mannable,T-203 Tempest Machinegun,TempestMG,Costs 2000,4,1500,900,/----/----/----/====,,y,,y,,,y,,,y
+60,weapon-base-side-small,G-291 Gimballed Railgun,Gimballed Railgun,Costs 3000,6,6000,300,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
+61,railgun,L-1 Lance,Lance,Costs 3000,10,10000,500,/=.=.=.=------/--/------=.=.=.=/=.=,y,,,y,,,y,,,y
+62,clonebay,Biological Reactor,Biological Reactor,,12,2400,1200,/======,,y,,,,,y,,,y
+63,terminal-base,RC-4 Radar Station,Radar Station,Costs 300,5,2500,800,/====,,y,,y,,,y,,,y
+64,thruster-xlarge,F-92 Frameshift Drive,Friendship Drive,Costs 3000,1,12000,2000,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+65,thruster-xlarge,D25 Heavy Thruster,Large ThrusterD,Costs 3000,1,2250,1280,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+66,thruster-xlarge,C25 Heavy Thruster,Large ThrusterC,Costs 3000,1,3000,1600,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+67,thruster-xlarge,B25 Heavy Thruster,Large ThrusterB,Costs 3000,1,4500,2080,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+68,thruster-xlarge,A25 Heavy Thruster,Large ThrusterA,Costs 3000,1,6000,2880,/000=====/====/=====000/0--0,y,y,,,,,y,,,y
+69,thruster-small,A10 Afterburner,Afterburner,Costs 50,1,1500,150,/-=/=/=-/-,y,y,,,,,y,,,y
+70,railgun,CA-12 Artillery Emplacement,ArtilleryFixed,Costs 3000,5,1000,800,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
+71,torpedo-launcher,Torpedo Launcher,Torpedo Launcher,launches torpedos,3,1000,200,/===-/--/-===/==,y,y,,y,,,y,,,y
+72,torpedo-launcher,Heavy Torpedo Launcher,Heavy Torpedo Launcher,launches torpedos,3,2500,300,/===-/--/-===/==,y,y,,y,,,y,,,y
+73,torpedo-launcher,Pincer Launcher,Pincer Launcher,launches torpedos,3,2500,180,/===-/--/-===/==,y,y,,y,,,y,,,y
+74,torpedo-launcher,Minelayer,Minelayer,launches torpedos,3,1200,250,/===-/--/-===/==,y,y,,y,,,y,,,y

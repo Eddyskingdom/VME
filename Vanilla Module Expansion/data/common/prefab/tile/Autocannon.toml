@@ -1,0 +1,27 @@
+[power]
+powerConsumption = 8
+
+[weapon]
+fireInterval = 1
+projectile = "projectile/autocannon"
+projectileSpeed = 600
+projectileLifetime = 2.5
+weaponWarmup = 0
+turretRotationSpeed = 0.5
+maxTurretRotation = 210
+turretSprite = "cannon-turret"
+turretOffsetX = 16
+bulletOffsetX = 4
+bulletOffsetY = 1
+
+isDoubleBarreled = true
+
+idle = "ship/HeavyCannon/idle"
+anim2 = "ship/HeavyCannon/right"
+anim1 = "ship/HeavyCannon/left"
+muzzleFlash = "ship/HeavyCannon/frame"
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/autocannon_fire"

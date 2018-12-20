@@ -1,0 +1,22 @@
+[seat]
+isWeapon = false
+seatOffsetX = 0
+seatOffsetY = -15
+addedZoomLevels = 1
+
+[partlyWalkable]
+internalCollision = "xxxxxxxx0000xxxx0000xxxxxxxxxxxx"
+extraFixturesCoords = [
+    [0,0, 4,0, 4,1, 0,1],
+    [0,3, 4,3, 4,4, 0,4],
+    [4,0, 7,1, 7,3, 4,4]
+]
+
+[weapon]
+turretSprite = "bridge-top"
+idle="bridge-top"
+
+[radar]
+range = 128
+
+[hasBuildZone]

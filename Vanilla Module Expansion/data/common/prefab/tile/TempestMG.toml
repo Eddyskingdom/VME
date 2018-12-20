@@ -1,0 +1,38 @@
+[power]
+powerConsumption = 2
+
+[weapon]
+fireInterval = 0.15
+projectile = "projectile/tempest"
+projectileSpeed = 1300
+projectileLifetime = 0.5
+weaponWarmup = 0
+turretRotationSpeed = 1.5
+maxTurretRotation = 270
+turretSprite = "mannable-cannon-turret"
+turretOffsetX = 20
+bulletOffsetX = 3.7
+bulletOffsetY = 0.5
+
+isRemoteTurret = false
+isDoubleBarreled = true
+
+idle = "ship/FlakCannon/idle"
+anim2 = "ship/FlakCannon/right"
+anim1 = "ship/FlakCannon/left"
+muzzleFlash = "ship/FlakCannon/flash"
+
+[seat]
+
+[partlyWalkable]
+internalCollision = "xxxx000x000xxxxx"
+extraFixturesCoords = [
+    [0,0, 4,0, 4,1, 0,1],
+    [3,1, 4,1, 4,3, 3,3],
+    [0,3, 4,3, 4,4, 0,4]
+]
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/flak_fire"

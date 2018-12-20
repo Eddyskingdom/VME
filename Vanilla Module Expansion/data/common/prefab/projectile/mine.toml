@@ -1,0 +1,12 @@
+[bullet]
+usesArming = true
+
+[projectile]
+trickleThrough = true
+damage = 400
+sprite = "autocannon-shot"
+hitEffectAnim = "effects/hit-effect"
+hitEffectScale = 20.0
+
+[soundDef]
+sound = "Misc/hit_small"

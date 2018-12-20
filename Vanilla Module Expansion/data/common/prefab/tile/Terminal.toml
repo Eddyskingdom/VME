@@ -1,0 +1,30 @@
+[power]
+powerConsumption = 1
+
+[seat]
+
+[weapon]
+fireInterval = 22
+bulletDamage = 1
+bulletSpeed = 6
+bulletLifetime = 1
+weaponWarmup = 0
+turretRotationSpeed = 0.5
+maxTurretRotation = 360
+turretSprite = "terminal-turret"
+turretOffsetX = 0
+bulletOffsetX = 0
+bulletOffsetY = 0
+
+isRemoteTurret = false
+isLaser = false
+disableSelfAiming = true
+
+idle="terminal-turret"
+
+[partlyWalkable]
+internalCollision = "xxxx00000000xxxx"
+extraFixturesCoords = [
+    [0,0, 4,0, 4,1, 0,1],
+    [0,3, 4,3, 4,4, 0,4]
+]

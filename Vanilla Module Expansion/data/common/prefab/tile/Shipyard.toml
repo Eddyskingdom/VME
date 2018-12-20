@@ -1,0 +1,12 @@
+[partlyWalkable]
+internalCollision = "xxx00xxxx00xxxx00x00000x00000xxxx00xxxx00xxxx00x"
+extraFixturesCoords = [
+    [0,0, 3,0, 3,3, 0,3],
+    [0,5, 3,5, 3,8, 0,8]
+]
+
+[power]
+powerConsumption = 10
+
+[shipyard]
+

@@ -1,0 +1,12 @@
+[bullet]
+usesArming = true
+
+[projectile]
+trickleThrough = false
+damage = 60
+sprite = "bullet"
+hitEffectAnim = "effects/hit-effect"
+hitEffectScale = 1.5
+
+[soundDef]
+sound = "Weapons/explosion_flak"

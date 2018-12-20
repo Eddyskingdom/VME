@@ -1,0 +1,27 @@
+[power]
+powerConsumption = 10
+
+[weapon]
+fireInterval = 8
+projectile = "projectile/railgunG"
+projectileSpeed = 1500
+projectileLifetime = 1.5
+weaponWarmup = 1.6
+turretRotationSpeed = 0.2
+maxTurretRotation = 20
+turretSprite = "railgun"
+turretOffsetX = 0
+bulletOffsetX = 5.5
+bulletOffsetY = 0
+
+isSemiAutomatic = true
+
+idle = "ship/Railgun/idle"
+anim2 = "ship/Railgun/frame"
+anim1 = "ship/Railgun/fire"
+muzzleFlash = ""
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/railgun_fire"

@@ -1,0 +1,66 @@
+[turnOffFromPrefab]
+
+[backgroundSpawner]
+asteroidSpawnCount = 10
+junkSpawnCount = 50
+
+name = "Planetary Conquest"
+description = "Capture all planets, or destroy all enemy motherships, to win the game."
+
+spawnDistFactor = "0.7"
+
+startingScrap = 0
+
+mapSize = 25000
+startingShips = [ "startershipone", "startershiptwo"]
+
+sandboxMode = false
+
+[[backgroundSpawner.backgroundObjects]]
+name = "midLeftPlanet"
+texture = "textures/2k_venus_atmosphere"
+position = [0.7, 0.7]
+size = 4
+parallaxDepth = 10
+isPlanet = true
+startFaction = 2
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "bottomplanet"
+texture = "textures/venus_surface"
+position = [-0.7, 0.7]
+size = 3
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 2
+
+[[backgroundSpawner.backgroundObjects]]
+name = "lowplanet"
+texture = "textures/mercury"
+position = [0.7, -0.7]
+size = 7
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 1
+
+[[backgroundSpawner.backgroundObjects]]
+name = "bluePlanet"
+texture = "textures/2k_neptune"
+position = [0.0, 0.0]
+size = 12
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "midRightPlanet"
+texture = "textures/venus_surface"
+position = [-0.7, -0.7]
+size = 5
+parallaxDepth = 10
+isPlanet = true
+startFaction = 1
+isCapturable = true

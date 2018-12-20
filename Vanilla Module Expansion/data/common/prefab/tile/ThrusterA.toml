@@ -1,0 +1,10 @@
+[power]
+powerConsumption = 4
+
+[engine]
+thrust = 0.9
+doubleSided = false
+hasSideThrust = false
+flameAnim = "ship/ThrusterFlame"
+
+[hasBuildZone]

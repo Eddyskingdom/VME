@@ -1,0 +1,19 @@
+[seat]
+isWeapon = false
+seatOffsetX = 0
+seatOffsetY = -10
+addedZoomLevels = 1
+
+[partlyWalkable]
+internalCollision = "000xx000xx"
+extraFixturesCoords = [
+    [3,0, 5,0, 5,2, 3,2]
+]
+
+[weapon]
+turretSprite = "cockpit-top"
+
+[radar]
+range = 64
+
+[hasBuildZone]

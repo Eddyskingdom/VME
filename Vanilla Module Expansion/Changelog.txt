@@ -1,0 +1,53 @@
+#####################################################################
+#                       ==  -       -    -  ==                      #
+#                        ==       VME      ==                       #
+#                       ==      -     -     ==                      #
+#####################################################################
+
+For questions and support, please contact the mod author: madmax3004
+
+-------------------------
+-	A 0.1		-
+-------------------------
+
++ Rated engines and power modules
++ FD-115 Fixed Point Defense Cannon
++ I-318 Impulse Cannon
++ S-192 Scattergun
++ Mk0 Mouse Autocannon
++ X-0 Zephyr Autocannon
++ T-203 Tempest Machinegun
++ G-291 Gimballed Railgun
++ L-1 Lance
++ Biological Reactor
++ RC-4 Radar Station
++ F-92 Frameshift Drive
+* Enabled several unused assets; including the heavy gattling gun and torpedoes
+- Heavy armour (It went invisible)
+
+-------------------------
+
+-------------------------
+-	A0.2		-
+-------------------------
+
++ Heavy Torpedo Launcher
++ Pincer Launcher
++ Rated heavy thruster modules
++ Afterburner
++ Fixed artillery
+* Possibly made the gimballed railgun non-glitchy?
+
+-------------------------
+
+-------------------------
+-	A0.21		-
+-------------------------
+
++ Minelayer
+- Light and Heavy launcher turret
+- Heavy Gattling
+- Wings and corners
+! The removed modules caused crashes. They might be re-added at a later time.
+
+-------------------------

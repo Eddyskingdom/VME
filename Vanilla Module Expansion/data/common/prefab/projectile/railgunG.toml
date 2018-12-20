@@ -1,0 +1,12 @@
+[bullet]
+usesArming = true
+
+[projectile]
+trickleThrough = true
+damage = 400
+sprite = "railgun-shot"
+hitEffectAnim = "effects/hit-effect"
+hitEffectScale = 5.0
+
+[soundDef]
+sound = "Misc/hit_small"

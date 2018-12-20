@@ -1,0 +1,9 @@
+[power]
+powerProduction = 60
+
+[partlyWalkable]
+internalCollision = "00xx0000xx0000xx0000xx0000xx0000xx00"
+extraFixturesCoords = [
+    [2,0, 4,0, 4,6, 2,6]
+]
+

@@ -1,0 +1,186 @@
+[turnOffFromPrefab]
+
+[backgroundSpawner]
+asteroidSpawnCount = 25
+junkSpawnCount = 35
+
+name = "Planetary Conquest"
+description = "Capture all planets, or destroy all enemy motherships, to win the game."
+
+spawnDistFactor = "0.9"
+
+startingScrap = 0
+
+mapSize = 75000
+startingShips = [ "shipone", "shiptwo", "shipthree", "shipfour", "shipfive", ]
+
+sandboxMode = false
+
+[[backgroundSpawner.backgroundObjects]]
+name = "nebula"
+texture = "NB1"
+position = [0, 0]
+size = 2000
+parallaxDepth = 1000
+isPlanet = false
+isCapturable = false
+
+[[backgroundSpawner.backgroundObjects]]
+name = "redPlanet"
+texture = "textures/venus_surface"
+position = [-0.8, -0.8]
+size = 17
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 1
+
+[[backgroundSpawner.backgroundObjects]]
+name = "bottomplanet"
+texture = "textures/mars"
+position = [-0.8, -0.4]
+size = 6
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 1
+
+[[backgroundSpawner.backgroundObjects]]
+name = "lowplanet"
+texture = "textures/mercury"
+position = [-0.4, -0.8]
+size = 9
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 1
+
+[[backgroundSpawner.backgroundObjects]]
+name = "bluePlanet"
+texture = "textures/2k_venus_atmosphere"
+position = [0.8, 0.8]
+size = 13
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 2
+
+[[backgroundSpawner.backgroundObjects]]
+name = "topplanet"
+texture = "textures/2k_neptune"
+position = [0.8, 0.4]
+size = 4
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 2
+
+[[backgroundSpawner.backgroundObjects]]
+name = "highplanet"
+texture = "textures/2k_jupiter"
+position = [0.4, 0.8]
+size = 10
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+startFaction = 2
+
+[[backgroundSpawner.backgroundObjects]]
+name = "centralcluster"
+texture = "textures/2k_jupiter"
+position = [0, 0]
+size = 20
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "centraltop"
+texture = "textures/mars"
+position = [0.4, 0.4]
+size = 6
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "centralbottom"
+texture = "textures/2k_venus_atmosphere"
+position = [-0.4, -0.4]
+size = 4
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "centralleft"
+texture = "textures/mercury"
+position = [0.3, -0.3]
+size = 7
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "centralright"
+texture = "textures/2k_neptune"
+position = [-0.3, 0.3]
+size = 5
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "left"
+texture = "textures/2k_neptune"
+position = [-0.8, 0.8]
+size = 14
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "lefttop"
+texture = "textures/2k_neptune"
+position = [-0.8, 0.4]
+size = 7
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "right"
+texture = "textures/mercury"
+position = [0.8, -0.8]
+size = 7
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "righttop"
+texture = "textures/2k_neptune"
+position = [0.8, -0.4]
+size = 4
+parallaxDepth = 10
+isPlanet = true
+isCapturable = true
+
+[[backgroundSpawner.backgroundObjects]]
+name = "redMoon"
+texture = "textures/mercury"
+position = [-0.7, -0.7]
+size = 1.5
+parallaxDepth = 5
+isPlanet = true
+isCapturable = false
+
+[[backgroundSpawner.backgroundObjects]]
+name = "blueMoon"
+texture = "textures/mercury"
+position = [0.7, 0.7]
+size = 1.5
+parallaxDepth = 5
+isPlanet = true
+isCapturable = false
+

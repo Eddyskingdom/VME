@@ -1,0 +1,6 @@
+[partlyWalkable]
+internalCollision = "xxxxxxxx00000000"
+extraFixturesCoords = [
+    [0,2, 4,2, 4,4, 0,4]
+]
+

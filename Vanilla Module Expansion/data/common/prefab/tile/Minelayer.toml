@@ -1,0 +1,22 @@
+[power]
+powerConsumption = 5
+
+[weapon]
+fireInterval = 1.5
+projectile = "projectile/mine"
+projectileSpeed = 1
+projectileLifetime = 100
+weaponWarmup = 0
+turretRotationSpeed = 0
+maxTurretRotation = 0
+turretSprite = "torpedo-tip"
+turretOffsetX = 0
+bulletOffsetX = 3
+bulletOffsetY = 0.6
+
+isDoubleBarreled = true
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/flak_fire"

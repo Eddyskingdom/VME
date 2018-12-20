@@ -1,0 +1,8 @@
+[power]
+powerConsumption = 4
+
+[pointDefense]
+radius = 160
+cooldown = 12
+
+[hasBuildZone]

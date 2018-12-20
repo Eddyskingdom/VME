@@ -1,0 +1,12 @@
+[bullet]
+usesArming = true
+
+[projectile]
+trickleThrough = true
+damage = 800
+sprite = "torpedo"
+hitEffectAnim = "effects/hit-effect"
+hitEffectScale = 40.0
+
+[soundDef]
+sound = "Misc/hit_small"

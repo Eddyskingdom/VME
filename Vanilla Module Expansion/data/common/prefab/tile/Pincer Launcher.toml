@@ -1,0 +1,22 @@
+[power]
+powerConsumption = 4
+
+[weapon]
+fireInterval = 0.2
+projectile = "projectile/pincerTorpedo"
+projectileSpeed = 600
+projectileLifetime = 4
+weaponWarmup = 0
+turretRotationSpeed = 1
+maxTurretRotation = 10
+turretSprite = "torpedo-tip"
+turretOffsetX = 0
+bulletOffsetX = 3
+bulletOffsetY = 0.6
+
+isDoubleBarreled = true
+
+[hasBuildZone]
+
+[soundDef]
+sound = "Weapons/flak_fire"

@@ -1,0 +1,17 @@
+[turnOffFromPrefab]
+
+[backgroundSpawner]
+asteroidSpawnCount = 10
+junkSpawnCount = 50
+
+name = "Team Deathmatch"
+description = "Destroy all enemy motherships to win the game."
+
+spawnDistFactor = "0.9"
+
+startingScrap = 0
+
+mapSize = 50000
+startingShips = [ "shipone", "shiptwo", "shipthree", "shipfour", "shipfive"]
+
+sandboxMode = false
