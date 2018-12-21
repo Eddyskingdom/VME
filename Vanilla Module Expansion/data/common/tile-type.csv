@@ -70,5 +70,6 @@ com,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuilda
 70,railgun,CA-12 Artillery Emplacement,ArtilleryFixed,Costs 3000,5,1000,800,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
 71,torpedo-launcher,Torpedo Launcher,Torpedo Launcher,launches torpedos,3,1000,200,/===-/--/-===/==,y,y,,y,,,y,,,y
 72,torpedo-launcher,Heavy Torpedo Launcher,Heavy Torpedo Launcher,launches torpedos,3,2500,300,/===-/--/-===/==,y,y,,y,,,y,,,y
-73,torpedo-launcher,Pincer Launcher,Pincer Launcher,launches torpedos,3,2500,180,/===-/--/-===/==,y,y,,y,,,y,,,y
-74,torpedo-launcher,Minelayer,Minelayer,launches torpedos,3,1200,250,/===-/--/-===/==,y,y,,y,,,y,,,y
+73,missile-launcher,Pincer Launcher,Pincer Launcher,launches torpedos,3,2500,180,/===-/--/-===/==,y,y,,y,,,y,,,y
+75,torpedo-launcher,Minelayer,Minelayer,launches torpedos,3,1200,250,/===-/--/-===/==,y,y,,y,,,y,,,y
+74,missile-launcher,K-1 Missile launcher,Missile Launcher,launches torpedos,3,2000,180,/===-/--/-===/==,y,y,,y,,,y,,,y
