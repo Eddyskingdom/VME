@@ -51,3 +51,13 @@ For questions and support, please contact the mod author: madmax3004
 ! The removed modules caused crashes. They might be re-added at a later time.
 
 -------------------------
+
+-------------------------
+-	A0.3		-
+-------------------------
+
++ Missile launcher
++ Missile Launcher sprites & missile sprites
+* Pincer launcher uses missile launcher sprite and fires pincer missiles now
+
+-------------------------
