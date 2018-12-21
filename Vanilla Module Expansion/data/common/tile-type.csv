@@ -1,4 +1,4 @@
-id,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildable,isCockpit,hasRadar,isTurretController,isEngineController,canRefillOxygen,usesPrettifies,turnsInto,usesDamageReplacement
+com,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildable,isCockpit,hasRadar,isTurretController,isEngineController,canRefillOxygen,usesPrettifies,turnsInto,usesDamageReplacement
 5,core,"S100 ""Mothership"" Factory",Core,Costs 25000,25,25000,5000,/======,,y,,,,,y,,,y
 104,asteroids/full-d,Asteroid Floor,,,12,60,25,/=,,,,,,,,y,,y
 105,asteroids/full-l,Asteroid Wall,,,10,50,20,/=,y,,,,,,,y,104,y
@@ -51,7 +51,7 @@ id,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildab
 51,thruster,"C10 ""Kreol"" Thruster",ThrusterC,Costs 200,1,200,400,/--==/==/==--/--,y,y,,,,,y,,,y
 52,thruster,"B10 ""Kreol"" Thruster",ThrusterB,Costs 200,1,300,520,/--==/==/==--/--,y,y,,,,,y,,,y
 53,thruster,"A10 ""Kreol"" Thruster",ThrusterA,Costs 200,1,400,720,/--==/==/==--/--,y,y,,,,,y,,,y
-54,weapon-base-side-small,FD-115 Fixed Point Defense Cannon,Gatling Autoturret Fixed,Costs 1000,2,800,250,/--/--/--/==,y,y,,y,,,y,,,y
+54,weapon-base-side-small,FD-115 Fixed Point Defense Cannon,Fixed Gatling Turret,Costs 1000,2,800,250,/--/--/--/==,y,y,,y,,,y,,,y
 55,railgun,I-318 Impulse Cannon,Impulse Cannon,Costs 3000,6,3200,450,/=.=.=.=------/--/------=.=.=.=/=.=,y,y,,y,,,y,,,y
 56,weapon-base-side-small,S-192 Scattergun,Scattergun,Costs 1000,2,1800,180,/--/--/--/==,y,y,,y,,,y,,,y
 57,weapon-base-side-large,Mk0 Mouse Autocannon,Mouse Cannon,Costs 3000,4,2800,500,/----/----/----/====,y,y,,y,,,y,,,y
