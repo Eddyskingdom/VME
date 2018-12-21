@@ -1,0 +1,12 @@
+[bullet]
+usesArming = true
+
+[projectile]
+trickleThrough = false
+damage = 30
+sprite = "missile"
+hitEffectAnim = "effects/hit-effect"
+hitEffectScale = 5.0
+
+[soundDef]
+sound = "Misc/hit_small"

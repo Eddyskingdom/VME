@@ -1,14 +1,14 @@
 [power]
-powerConsumption = 4
+powerConsumption = 2
 
 [weapon]
-fireInterval = 0.15
-projectile = "projectile/pincerMissile"
+fireInterval = 2.5
+projectile = "projectile/missile"
 projectileSpeed = 800
 projectileLifetime = 2
 weaponWarmup = 0
-turretRotationSpeed = 1
-maxTurretRotation = 10
+turretRotationSpeed = 0
+maxTurretRotation = 0
 turretSprite = "missile tip"
 turretOffsetX = 0
 bulletOffsetX = 3
