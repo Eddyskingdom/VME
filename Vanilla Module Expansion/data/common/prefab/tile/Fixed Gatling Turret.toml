@@ -1,0 +1,25 @@
+[power]
+powerConsumption = 3
+
+[weapon]
+fireInterval = 0.15
+projectile = "projectile/fixedGatling"
+projectileSpeed = 1300
+projectileLifetime = 1.5
+weaponWarmup = 1
+turretRotationSpeed = 1
+maxTurretRotation = 10
+turretSprite = "light-gatling-turret"
+turretOffsetX = 14
+bulletOffsetX = 2.25
+bulletOffsetY = +0.5
+
+idle = "ship/fixed-gatling-turret/idle"
+anim2 = "ship/fixed-gatling-turret/spinning"
+anim1 = "ship/fixed-gatling-turret/firing"
+muzzleFlash = "ship/fixed-gatling-turret/muzzleflash"
+
+[hasBuildZone]
+
+[soundDef]
+sound =  "Weapons/gatling_fire_temp"
