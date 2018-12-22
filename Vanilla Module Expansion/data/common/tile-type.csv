@@ -1,4 +1,4 @@
-com,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildable,isCockpit,hasRadar,isTurretController,isEngineController,canRefillOxygen,usesPrettifies,turnsInto,usesDamageReplacement
+id,sprite,name,prefab,description,density,cost,initHealth,shape,isWall,isBuildable,isCockpit,hasRadar,isTurretController,isEngineController,canRefillOxygen,usesPrettifies,turnsInto,usesDamageReplacement
 5,core,"S100 ""Mothership"" Factory",Core,Costs 25000,25,25000,5000,/======,,y,,,,,y,,,y
 104,asteroids/full-d,Asteroid Floor,,,12,60,25,/=,,,,,,,,y,,y
 105,asteroids/full-l,Asteroid Wall,,,10,50,20,/=,y,,,,,,,y,104,y
