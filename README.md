@@ -7,5 +7,3 @@ Iron Armada Mod - Vanilla Module Expansion
 - Dev: Eddyskingdom
 ## Special thanks
 - Server & Testing: Zeveryn
-
-Test
